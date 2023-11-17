@@ -63,18 +63,18 @@ In JavaScript, flags are used after the closing delimiter of the regular express
 
 ## Example Code
 
-` function validateEmail(email) {
+ `function validateEmail(email) {
   const pattern = /^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$/;
   return pattern.test(email);
-}
+}`
 
-const emailToTest = "user@example.com";
+`const emailToTest = "user@example.com";`
 
-if (validateEmail(emailToTest)) {
-  console.log(`${emailToTest} is a valid email address.`);
+`if (validateEmail(emailToTest)) {
+  console.log(${emailToTest} is a valid email address.);
 } else {
-  console.log(`${emailToTest} is not a valid email address.`);
-} `
+  console.log(${emailToTest} is not a valid email address.);
+}`
 In this JavaScript example:
 
 The validateEmail function takes an email address as an argument.
